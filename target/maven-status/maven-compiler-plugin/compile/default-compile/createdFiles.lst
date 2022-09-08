@@ -1,0 +1,12 @@
+cn/chun/projs/myweb/entity/Admin.class
+cn/chun/projs/myweb/mapper/UserMapper.class
+cn/chun/projs/myweb/controller/HBaseController.class
+cn/chun/projs/myweb/pojo/User.class
+cn/chun/projs/myweb/config/MyBatisConfiguration.class
+cn/chun/projs/myweb/controller/UserController.class
+cn/chun/projs/myweb/service/MysqlService.class
+cn/chun/projs/myweb/config/HbaseConfig.class
+cn/chun/projs/myweb/config/HbaseProperties.class
+cn/chun/projs/myweb/mapper/AdminMapper.class
+cn/chun/projs/myweb/service/HbaseService.class
+cn/chun/projs/myweb/MyWebApp.class

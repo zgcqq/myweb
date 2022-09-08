@@ -1,0 +1,12 @@
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/mapper/AdminMapper.java
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/controller/UserController.java
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/config/HbaseConfig.java
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/controller/HBaseController.java
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/pojo/User.java
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/MyWebApp.java
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/service/HbaseService.java
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/config/MyBatisConfiguration.java
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/mapper/UserMapper.java
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/service/MysqlService.java
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/entity/Admin.java
+/Users/chun/Workspace/mycodes/myweb/src/main/java/cn/chun/projs/myweb/config/HbaseProperties.java
