@@ -9,6 +9,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.search.SearchRequest;
+import org.elasticsearch.action.search.SearchRequestBuilder;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
@@ -138,32 +139,6 @@ public class CarController {
     @RequestMapping(value="/cars/agg", method = RequestMethod.GET)
     public JSONObject agg(){
         JSONObject result = new JSONObject();
-        NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
-        // 不查询任何结果
-        queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{""}, null));
-        // 1、添加一个新的聚合，聚合类型为terms，聚合名称为brands，聚合字段为brand
-        queryBuilder.addAggregation(
-                AggregationBuilders.terms("brands").field("brand")
-        );
-
-
-//        // 2、查询,需要把结果强转为AggregatedPage类型
-//        AggregatedPage<Car> aggPage = (AggregatedPage<Car>) this.carRepository.search(queryBuilder.build());
-//        // 3、解析
-//        // 3.1、从结果中取出名为brands的那个聚合，
-//        // 因为是利用String类型字段来进行的term聚合，所以结果要强转为StringTerm类型
-//        StringTerms agg = (StringTerms) aggPage.getAggregation("brands");
-//        // 3.2、获取桶
-//        List<StringTerms.Bucket> buckets = agg.getBuckets();
-//        // 3.3、遍历
-//        for (StringTerms.Bucket bucket : buckets) {
-//            // 3.4、获取桶中的key，即品牌名称
-//            System.out.println(bucket.getKeyAsString());
-//            // 3.5、获取桶中的文档数量
-//            System.out.println(bucket.getDocCount());
-//        }
-
         return result;
-
     }
 }
