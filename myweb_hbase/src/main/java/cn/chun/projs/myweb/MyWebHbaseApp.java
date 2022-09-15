@@ -12,10 +12,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @Slf4j
 @SpringBootApplication
 @MapperScan("cn.chun.projs.myweb.mapper")
-public class MyWebApp {
+public class MyWebHbaseApp {
     public static void main(String[] args) {
         log.info("NgSearchApplication starting ...");
-        SpringApplication.run(MyWebApp.class, args);
+        SpringApplication.run(MyWebHbaseApp.class, args);
         log.info("NgSearchApplication started.");
     }
 }

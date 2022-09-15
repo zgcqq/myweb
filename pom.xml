@@ -9,9 +9,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <!--  基础依赖包 -->
+        <module>myweb_eskilo</module>
         <module>myweb_hbase</module>
+        <module>myweb_kafka</module>
         <module>myweb_mysql</module>
-
     </modules>
     <packaging>pom</packaging>
     <description>sample codes</description>
